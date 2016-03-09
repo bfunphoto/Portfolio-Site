@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/* Banner */
+
+div.background {
+	margin: 0;
+    width: 100%;
+	min-height: 650px;
+	background-image: url("../img/landscapes/br.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;	
+	
+}
+
+/* Skills */
+
+div.container {
+	width: 100%;	
+	min-height: 100px;
+	color: #000;
+	margin: 0;	
+	text-align: center;	
+}
+
+.skills {
+	float: left;
+	width: 33%;	
+}
+
+.expertise {
+	text-align: center;
+	margin: 2% 2% 0 2%;
+	font-size: 1.2em;	
+}
+
+.details {
+	padding: 2% 2% 0 2%;	
+}
+
+.container2 {
+    text-align: center; 
+    margin: 0 0 1.3% 0;  
+}
+
+a.btn {
+   width: 11%;
+   padding: .6%;
+   margin: 0 0 25% 0;
+   text-align: center; 
+   border: 1px solid #fff;
+   font-size: 1.2em;
+   background-color: #000;
+   color: #fff;
+   border-radius: 9px;   
+}
+
+.btn:hover {
+	
+    background-color: #fff;
+    color: #000;
+	border: solid 1px #000;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1070px) {
+  .skills {
+    width: 100%;
+    text-align: center;
+    margin: 1% 1% 1.5% 1%;
+  }
+  
+ .expertise {
+	margin: .5% 0 0 0;
+}
+
+.details {
+	padding: 1%;	
+	padding-bottom: 2%;
+}
+
+div.background {
+	margin: 0;
+    width: 100%;
+    text-align: center;
+	min-height: 650px;
+	background-image: url("../img/landscapes/br.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;	
+	
+}
+}

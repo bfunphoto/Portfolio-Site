@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* If something looks off from the tutorial it is likely because I didn't exactly copy his HTML structure */
+
+
+/* Center the page */
+.body {
+    display: block;
+    margin: 0 auto;
+    width: 576px;   
+}
+
+/* Center the form within the page */
+
+form {
+    margin: auto;
+    width: 459px;   
+}
+
+/* Text box styling */
+
+input, textarea {
+    width: 439px;
+    height: 27px;
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #3a3a3a;   
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+textarea {
+    height: 213px; 
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;   
+}
+
+#submit {
+	padding: 1%;
+	margin: auto;
+	margin: 6% 0 2% 0;
+	width: 30%;
+	
+}
