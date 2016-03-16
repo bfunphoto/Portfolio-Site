@@ -11,7 +11,7 @@
 				
     if ($_POST['submit'] && $human == '4') {				 
         if (mail ($to, $subject, $body, $from)) { 
-	    echo '<p>Your message has been sent! <a href="www.bfunderburke.com>Click here to return to bfunderburke.com</a></p>';
+	    echo '<p>Your message has been sent!</p><a href="www.bfunderburke.com>Click here to return to bfunderburke.com</a>';
 	} else { 
 	    echo '<p>Something went wrong, go back and try again!</p>'; 
 	} 
