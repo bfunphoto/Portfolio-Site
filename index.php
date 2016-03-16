@@ -3,7 +3,7 @@
     $email = $_POST['email'];
     $message = $_POST['message'];
     $from = 'From: Brian Funderburke'; 
-    $to = 'bfunder94@gmail.com'; 
+    $to = 'brian@bfunderburke.com'; 
     $subject = 'Hello';
     $human = $_POST['human'];
 			
@@ -11,7 +11,7 @@
 				
     if ($_POST['submit'] && $human == '4') {				 
         if (mail ($to, $subject, $body, $from)) { 
-	    echo '<p>Your message has been sent!</p>';
+	    echo '<p>Your message has been sent! <a href="www.bfunderburke.com>Click here to return to bfunderburke.com</a></p>';
 	} else { 
 	    echo '<p>Something went wrong, go back and try again!</p>'; 
 	} 
