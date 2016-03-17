@@ -29,7 +29,7 @@
 article {
 	width:86%;	
 	line-height: 115%;
-    text-align:justify;
+    text-align:left;
 }
 
 .container {
@@ -95,7 +95,7 @@ article {
 article {
 	width:50%;	
 	line-height: 115%;
-    text-align:justify;
+    text-align:left;
 }	
 
 .articleContainer article {
