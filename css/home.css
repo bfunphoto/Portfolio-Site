@@ -22,6 +22,10 @@ div.container {
 	text-align: center;	
 }
 
+div div a {
+    color: #000;   
+}
+
 .skills {
 	float: left;
 	width: 33%;	
